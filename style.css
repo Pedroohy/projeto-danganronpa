@@ -17,7 +17,7 @@
 }
 body {
     font-family: Montserrat;
-    background-image: linear-gradient(to left, var(--Branco), var(--Branco), var(--Preto), var(--Preto));
+    background-image: linear-gradient(to right, var(--Preto)75%, var(--Branco) 50%);
 }
 
 header > p  {
@@ -76,7 +76,8 @@ article > h2 {
 }
 
 article > p {
-    padding: 0px 10px 0px 10px;
+    padding: 10px 15px 10px 15px;
+    text-align: justify;
     
 }
 
@@ -88,7 +89,7 @@ article > ol > li {
     font-weight: 700;
 }
 article > ol,ul > li {
-    padding: 5px 18px 0px 5px;
+    padding: 10px 18px 0px 5px;
 }
 
 article > ol > li {
@@ -127,6 +128,7 @@ img {
     border: solid;
     border-color: var(--Preto);
     border-width: 1px;
+    margin: 20px 0px 10px 10px;
 }
 
 .banner-3 {
@@ -149,7 +151,7 @@ img {
     border: solid;
     border-color: var(--Preto);
     border-width: 1px;
-    margin: 10px;
+    margin: 20px 0px 10px 10px;
 }
 
 
@@ -193,5 +195,6 @@ a {
 }
 
 a:hover {
-    color: var(--Vermelho-Escuro);
+    color: var(--Rosa-claro);
+    text-decoration: underline;
 }
